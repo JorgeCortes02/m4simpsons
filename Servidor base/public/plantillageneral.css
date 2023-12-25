@@ -5,14 +5,14 @@
    
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-   background-color: #a7dffb;
+   background-color: #44bbfb;
    
 }
 
 body{
 
     
-    background-color: #44bbfb;
+    background-image: url("/images/nubes.jpg");
     font-family: Poor Story;
 
 }

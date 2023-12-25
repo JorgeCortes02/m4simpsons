@@ -8,13 +8,32 @@ a{text-decoration: none;
 
 }
 
+a:hover{text-decoration: none;
+
+    color: white;
+    font-family: Poor Story;
+    font-size: 150%;
+
+}
 
 
 
 .botonMenu{
-    color: black;
+    
     margin: 10px;
+    background-color: #f6c945;
 }
+
+.botonMenu:hover{
+    color: white;
+    margin: 10px;
+    background-color: black;
+    border-radius: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+
 
 .divmenu{
     background-color:#f6c945 ;

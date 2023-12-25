@@ -8,11 +8,20 @@
     margin-bottom: 30px ;
     margin-right: 20px;
     min-height: 500px;
+    max-width: 250px;
     background-color: rgba(0, 0, 0, 0.1);
     justify-content: center;
 }
 
 .fotoPerso{
+
+    width: 80%;
+    height: 270px;
+}
+
+.fotoPerso:hover{
+
+    animation: spin 1s linear 1;
 
     width: 80%;
     height: 270px;
@@ -41,4 +50,14 @@ p{
     }
    
   
+  }
+
+  @keyframes spin {
+    /* Define el comportamiento de la animación de 0% a 100% */
+    from {
+      transform: rotate(0deg); /* Comienza sin rotación */
+    }
+    to {
+      transform: rotate(360deg); /* Termina con una rotación completa de 360 grados */
+    }
   }
