@@ -18,32 +18,7 @@ body{
 }
 
 
-#logo{
-
-    width: 120px;
-    height: 80px;
-
-
-}
-
-#cabecera{
-
-    display: flex;
-    flex-direction: row;
-    width: 60%;
-    margin: 0 auto;
-
-}
-
-h1{
-    color: black;
-    font-family: Poor Story;
-    margin-left: 3%;
-    font-size: 40;
-    letter-spacing: 2px;
-}
-
-.divPersonatges{
+.divContenido{
 
     display: flex;
     flex-wrap: wrap;
@@ -58,25 +33,7 @@ h1{
     
 }
 
-.perso{
 
-    width: 250px;
-    border: 1px solid gray;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 30px ;
-    margin-right: 20px;
-    min-height: 500px;
-    background-color: rgba(0, 0, 0, 0.1);
-    justify-content: center;
-}
-
-.fotoPerso{
-
-    width: 80%;
-    height: 270px;
-}
 
 .menuSticky{
 
@@ -85,46 +42,23 @@ h1{
 
 }
 
-p{
-
-    font-size: 20px;
-    
-   
-}
 
 @media only screen and (max-width: 600px) {
-    .perso{
+   
+    .divContenido{
 
-        width: 250px;
-        border: 1px solid gray;
        
-        padding: 10px;
-        border-radius: 5px;
-        margin: 0 auto;
-        margin-bottom: 30px;
-        min-height: 500px;
-        background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 5%;
+    background-color: whitesmoke;
         
     }
-    .divPersonatges{
-
-        display: flex;
-        flex-wrap: wrap;
-        width: 80%;
-        border: 1px solid black;
-        border-radius: 5px;
-        margin: 0 auto;
-        
-        padding: 5%;
-        background-color: whitesmoke;
-        
-    }
-    #cabecera{
-
-        display: flex;
-        flex-direction: column;
-        width: 60%;
-        margin: 0 auto;
-    
-    }
+  
   }
