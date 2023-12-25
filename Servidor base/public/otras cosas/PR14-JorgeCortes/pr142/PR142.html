@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href ="pr142.css" rel = "stylesheet" />
+    
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div class = "d1">
+
+    <h2><b>Pivot Table Basic</b></h2>
+    <br>
+    
+    <p><b>Analitze and Sumarize</b><br>You can use pivot tables to analyze any set of data, quickly group and summarize values, and identity interessing patterns and trends.</p>
+    <br>
+
+    
+    <p><b>Fields and Source Data</b><br>Pivot tables are based on fields which correspond to columns in separate table of source data. You choose which fields to include in the pivot table</p>
+    <br>
+
+    
+    <p><b>Columns, Rows and Values</b><br>Use fields to create columns and rows in the pivot table and to specify which data is summaritze. In this example, the month columns are based on the date field and subtotals are calculated using data from the units field.</p>
+    <br>
+
+    
+    <p><b>Pivot Table Options</b><br>To edit pivot table, select it, click or tab the organize buttom in the toolbar, and then choose Pivot Options. You can add, remove, and reorder fields, and choose options for how data is summarize, sorted,labeled and more.</p>
+
+</div>
+
+<div class = "generalDiv2">
+
+    <sub>Sales Pivot</sub>
+    <table class = "table1">
+        <tr>
+            <th colspan="2" id = "celdasizelong" class ="borderwhite">Date(Month)</th>
+            <th id ="celdasize" class ="borderwhite">January</th>
+            <th id="celdasize" class ="borderwhite">February</th>
+            <th id ="celdasize" class ="borderwhite">March</th>
+            <th id ="celdasize" class ="borderwhite">Grand Total</th>
+        </tr>
+        <tr>
+            <th id ="celdassizesemilong" class ="borderwhite">Power</th>
+            <th id ="celdassizesemilong" class ="borderwhite">Product</th>
+            <th colspan="3" class ="borderwhite">Units(Sum)</th>
+            <th class ="borderwhite"></th>
+
+
+        </tr>
+        <tr>
+            <td rowspan="3" class = "textLeft">	&#x25BE Electric</td>
+            <td class = "borderOnlyDown textLeft">Bicycles</td>
+            <td class = "borderline textRight">476</td>
+            <td class = "borderline textRight">354</td>
+            <td class = "borderline textRight">392</td>
+            <td class = "borderline textRight">1.222</td>
+        </tr>
+        <tr>
+            
+            <td class = "borderOnlyDown textLeft">Scooters</td>
+            <td class = "borderline textRight">387</td>
+            <td class = "borderline textRight">312</td>
+            <td class = "borderline textRight">211</td>
+            <td class = "borderline textRight">910</td>
+        </tr>
+        <tr>
+            
+            <td class = "borderOnlyDown textLeft">Skateboards</td>
+            <td class = "borderline textRight">251</td>
+            <td class = "borderline textRight">315</td>
+            <td class = "borderline textRight">467</td>
+            <td class = "borderline textRight">1.033</td>
+        </tr>
+        <tr>
+            <td colspan="2" class = "borderOnlyDown textLeft">Electric Total</td>
+            
+            <td class = "borderline textRight">1114</td>
+            <td class = "borderline textRight">981</td>
+            <td class = "borderline textRight">1070</td>
+            <td class = "borderline textRight">3185</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class = "textLeft">&#x25BE Manual</td>
+            <td class = "borderOnlyDown textLeft">Bicycles</td>
+            <td class = "borderline textRight">302</td>
+            <td class = "borderline textRight">219</td>
+            <td class = "borderline textRight">464</td>
+            <td class = "borderline textRight">965</td>
+        </tr>
+        <tr>
+           
+            <td class = "borderOnlyDown textLeft">Scooters</td>
+            <td class = "borderline textRight">309</td>
+            <td class = "borderline textRight">419</td>
+            <td class = "borderline textRight">293</td>
+            <td class = "borderline textRight">1021</td>
+        </tr>
+        <tr>
+            <td colspan="2" class = "borderOnlyDown textLeft">Manual Total</td>
+            <td class = "borderline textRight">611</td>
+            <td class = "borderline textRight">638</td>
+            <td class = "borderline textRight">757</td>
+            <td class = "borderline textRight">2006</td>
+        </tr>
+        <tr>
+            <td colspan="2" class = "borderOnlyDown textLeft"><b>Grand Total</b></td>
+            <td class = "borderline textRight"><b>1725</b></td>
+            <td class = "borderline textRight"><b>1619</b></td>
+            <td class = "borderline textRight"><b>1827</b></td>
+            <td class = "borderline textRight"><b>5171</b></td>
+        </tr>
+    </table>
+
+    <br>
+    <sub>Sales</sub>
+    <table class="tablet2">
+
+        <tr>
+            <th class = "textLeft backblue " id ="celdassizesemilong">Date</th>
+            <th class = "textLeft backblue" id ="celdassizesemilong">Product</th>
+            <th class = "textLeft backblue" id ="celdassizesemilong">Power</th>
+            <th class = "textLeft backblue" id ="celdassizesemilong">Unit</th>
+            <th class = "textLeft backblue" id ="celdassizesemilong">Revenue</th>
+        </tr>
+    
+        <tr>
+    
+            <th class = "textRight borderline"><b>January</b></th>
+            <td class = "textLeft borderline">Bicycles</td>
+            <td class = "textLeft borderline">Electric</td>
+            <td class = "textRight borderline"> 476</td>
+            <td class = "textRight borderline">$751.604</td>
+        </tr>
+    
+        <tr>
+    
+            <th class = "textRight borderline"><b>February</b></th>
+            <td class = "textLeft backgray borderline">Bicycles</td>
+            <td class = "textLeft backgray borderline">Electric</td>
+            <td class = "textRight backgray borderline">392</td>
+            <td class = "textRight backgray borderline">$39.200</td>
+        </tr>
+        <tr>
+    
+            <th class = "textRight borderline"><b>March</b></th>
+            <td class = "textLeft borderline">Bicycles</td>
+            <td class = "textLeft borderline">Manual</td>
+            <td class = "textRight borderline">464</td>
+            <td class = "textRight borderline">$892.735</td>
+        </tr>
+        <tr>
+    
+            <th class = "textRight borderline"><b>April</b></th>
+            <td class = "textLeft backgray borderline">Scooters</td>
+            <td class = "textLeft backgray borderline">Electric</td>
+            <td class = "textRight backgray borderline">211</td>
+            <td class = "textRight backgray borderline">$151.498</td>
+        </tr>
+        <tr>
+    
+            <th class = "textRight borderline"><b>May</b></th>
+            <td class = "textLeft borderline">Scooters</td>
+            <td class = "textLeft borderline">Manual</td>
+            <td class = "textRight borderline">293</td>
+            <td class = "textRight borderline">$467.628</td>
+        </tr>
+        <tr>
+    
+            <th class = "textRight backgray borderline "><b>June</b></th>
+            <td class = "textLeft backgray borderline">Skateboards</td>
+            <td class = "textLeft backgray borderline"> Electric</td>
+            <td class = "textRight backgray borderline">467</td>
+            <td class = "textRight backgray borderline">$798.570</td>
+        </tr>
+    </table>
+
+</div>
+
+
+
+
+
+</body>
+</html>

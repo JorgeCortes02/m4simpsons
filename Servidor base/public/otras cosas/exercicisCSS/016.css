@@ -1,0 +1,28 @@
+.cursorAuto {
+    user-select: none;
+    cursor: auto;
+}
+.cursorPointer {
+    user-select: none;
+    cursor: pointer;
+}
+.cursorHelp {
+    user-select: none;
+    cursor: help;
+}
+.cursorWait {
+    user-select: none;
+    cursor: wait;
+}
+.cursorGrab {
+    user-select: none;
+    cursor: grab;
+}
+.cursorNW {
+    user-select: none;
+    cursor: nw-resize;
+}
+.cursorZoom {
+    user-select: none;
+    cursor: zoom-in ;
+}

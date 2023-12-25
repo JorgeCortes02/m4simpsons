@@ -1,0 +1,40 @@
+
+
+a{text-decoration: none;
+
+    color: black;
+    font-family: Poor Story;
+    font-size: 150%;
+
+}
+
+
+
+
+.botonMenu{
+    color: black;
+    margin: 10px;
+}
+
+.divmenu{
+    background-color:#f6c945 ;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid black;
+    border-top-right-radius: 5px ;
+    border-top-left-radius: 5px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+
+
+#menuSelect{
+
+    text-decoration: underline;
+
+}
+
+
