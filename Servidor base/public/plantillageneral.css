@@ -13,6 +13,7 @@ body{
 
     
     background-image: url("/images/nubes.jpg");
+    background-repeat: repeat;
     font-family: Poor Story;
 
 }
