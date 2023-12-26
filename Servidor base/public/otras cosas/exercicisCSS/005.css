@@ -1,0 +1,7 @@
+.esquerradreta {
+    display: flex;
+}
+.dretaesquerra {
+    display: flex;
+    flex-direction: row-reverse;
+}

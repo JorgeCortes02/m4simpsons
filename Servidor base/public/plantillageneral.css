@@ -1,0 +1,65 @@
+#divbody{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+   
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+   background-color: #44bbfb;
+   
+}
+
+body{
+
+    
+    background-image: url("/images/nubes.jpg");
+    background-repeat: repeat;
+    font-family: Poor Story;
+
+}
+
+
+.divContenido{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 5%;
+    background-color: whitesmoke;
+    
+}
+
+
+
+.menuSticky{
+
+    position: sticky;
+    top: 0;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+    .divContenido{
+
+       
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 5%;
+    background-color: whitesmoke;
+        
+    }
+  
+  }

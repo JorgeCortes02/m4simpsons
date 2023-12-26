@@ -1,0 +1,10 @@
+.contingut {
+    display: grid;
+    justify-content: space-around;
+    
+}
+.estirat {
+    display: flex;
+    justify-content: space-around;
+    align-self: stretch;
+}

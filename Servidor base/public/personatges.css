@@ -1,0 +1,63 @@
+.perso{
+
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px ;
+    margin-right: 20px;
+    min-height: 500px;
+    max-width: 250px;
+    background-color: rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+.fotoPerso{
+
+    width: 80%;
+    height: 270px;
+}
+
+.fotoPerso:hover{
+
+    animation: spin 1s linear 1;
+
+    width: 80%;
+    height: 270px;
+}
+
+p{
+
+    font-size: 20px;
+    
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .perso{
+
+        width: 250px;
+        border: 1px solid gray;
+       
+        padding: 10px;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        min-height: 500px;
+        background-color: rgba(0, 0, 0, 0.1);
+        
+    }
+   
+  
+  }
+
+  @keyframes spin {
+    /* Define el comportamiento de la animación de 0% a 100% */
+    from {
+      transform: rotate(0deg); /* Comienza sin rotación */
+    }
+    to {
+      transform: rotate(360deg); /* Termina con una rotación completa de 360 grados */
+    }
+  }
