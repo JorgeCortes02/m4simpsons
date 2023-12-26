@@ -2,11 +2,10 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
-   
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-   background-color: #44bbfb;
-   
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #44bbfb;
+
 }
 
 body{
@@ -15,7 +14,7 @@ body{
     background-image: url("/images/nubes.jpg");
     background-repeat: repeat;
     font-family: Poor Story;
-
+    margin-bottom: 0;
 }
 
 
@@ -30,6 +29,7 @@ body{
     margin: 0 auto;
     justify-content: space-around;
     padding: 5%;
+    padding-top: 2%;
     background-color: whitesmoke;
     
 }
@@ -37,10 +37,8 @@ body{
 
 
 .menuSticky{
-
     position: sticky;
     top: 0;
-
 }
 
 
