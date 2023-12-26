@@ -1,0 +1,9 @@
+.saltlinia {
+    display: flex;
+    flex-wrap:wrap;
+}
+.saltliniainvers {
+    display: flex;
+    flex-wrap:wrap-reverse;
+   
+}

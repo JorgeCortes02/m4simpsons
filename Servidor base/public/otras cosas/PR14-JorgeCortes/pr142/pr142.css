@@ -1,0 +1,177 @@
+
+body{
+
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.generalDiv2{
+
+    width: 50%;
+    text-align: center;
+    padding-top: 8%;
+    padding-left: 5%;
+    margin: 0 auto ;
+}
+
+.d1{
+    width: 40%;
+}
+
+p{
+    font-size: 13px;
+}
+
+.textLeft{
+
+    text-align: left;
+    vertical-align: top;
+}
+
+.textRight{
+
+    text-align: right;
+}
+
+
+.table1{
+
+  
+    font-size: 11px;
+    border-collapse: collapse;
+    
+
+}
+.table1 tr:first-child{
+    text-align: left;
+    background-color:rgb(26,156,249);
+    color: white;
+}.table1 tr:nth-child(1) th:nth-child(1){
+    text-align: right;
+
+}.table1 tr:nth-child(2){
+
+    background-color:rgb(26,156,249);
+    color: white;
+    
+    text-align: left;
+}.table1 tr:nth-child(6) td:nth-child(1) {
+
+    background-color:  rgb(244,244,244);
+    
+}.table1 tr:nth-child(6) td:nth-child(2) {
+
+    background-color:   rgb(226,226,226);
+    
+}.table1 tr:nth-child(6) td:nth-child(3) {
+
+    background-color:   rgb(226,226,226);
+    
+}.table1 tr:nth-child(6) td:nth-child(4) {
+
+    background-color:   rgb(226,226,226);
+    
+}.table1 tr:nth-child(6) td:nth-child(5) {
+
+    background-color:  rgb(244,244,244);
+    
+}.table1 tr:nth-child(9) td:nth-child(1) {
+
+    background-color:  rgb(244,244,244);
+    
+}.table1 tr:nth-child(9) td:nth-child(2) {
+
+    background-color:   rgb(226,226,226);
+    
+}.table1 tr:nth-child(9) td:nth-child(3) {
+
+    background-color:   rgb(226,226,226);
+    
+}.table1 tr:nth-child(9) td:nth-child(4) {
+
+    background-color:   rgb(226,226,226);
+    
+}.table1 tr:nth-child(9) td:nth-child(5) {
+
+    background-color:  rgb(244,244,244);
+    
+}.table1 tr:nth-child(10){
+
+    background-color:rgb(232,232,232);
+       
+}
+
+
+.tablet2{
+
+    font-size: 11px;
+    border-collapse: collapse;
+    border: 1px solid gray;
+
+}
+
+.borderline{
+
+    border: 1px solid gray;
+    
+}
+
+.borderwhite{
+
+    border: 1px solid white
+
+}
+
+#celdasize{
+    width: 7%;
+    min-width: 6.5%;
+    height: 15%;
+    max-width: 10%;
+}
+
+#celdassizesemilong{
+    
+    width: 10%;
+    min-width: 10%;
+    max-width: 12%;
+    height: 15%;
+}
+
+#celdasizelong{
+ width: 20%;
+ min-width: 15%;
+ max-width: 21%;
+ height: 15%;
+}
+
+
+
+.backgray{
+
+    background-color: rgb(244,244,244) ;
+}
+
+.backblue{
+
+    background-color: rgb(26,156,249);
+    color: white;
+    
+}
+
+
+
+.borderOnlyDown{
+
+    border-bottom: 1px solid black;
+}
+
+
+@media (max-width: 768px) {
+    body{
+
+        display: flex;
+        flex-direction: column;
+    
+    }
+  }
